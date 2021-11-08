@@ -43,6 +43,7 @@ section {
 
 section h1 {
     font-size: 3em;
+    text-align: center;
 }
 
 section h2 {
@@ -56,6 +57,11 @@ section h3 {
 header a {
     text-decoration: none;
     color: black;
+}
+
+h1 {
+  text-align: center;
+  text-justify: center;
 }
 
 #About_Me {
@@ -72,4 +78,20 @@ header a {
 
 #Contacts {
     background-color: #AA6F5D;
+}
+
+.about-color {
+  background-color: #D1AE9B;
+}
+
+.skills-color {
+  background-color: #C09175;
+}
+
+.portfolio-color {
+  background-color: #BD8270;
+}
+
+.contacts-color {
+  background-color: #AA6F5D;
 }
