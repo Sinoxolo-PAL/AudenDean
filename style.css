@@ -95,3 +95,35 @@ h1 {
 .contacts-color {
   background-color: #AA6F5D;
 }
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    "h h h h h"
+    "a a a a a"
+    "s s s s s"
+    "p p p p p"
+    "c c c c c";
+}
+
+.header {
+    grid-area: h;
+}
+
+.about {
+    grid-area: a;
+}
+
+.skills {
+    grid-area: s;
+}
+
+.portfolio {
+    grid-area: p;
+}
+
+.contacts {
+    grid-area: c;
+}
