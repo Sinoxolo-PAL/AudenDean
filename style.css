@@ -33,7 +33,7 @@ section {
     height: 100vh;
     display: grid;
     justify-content: left;
-    align-items: center;
+    align-items: left;
     text-align: left;
     
     background-size: cover;
@@ -44,7 +44,7 @@ section {
 
 section h1 {
     font-size: 3em;
-    text-align: center;
+    text-align: left;
 }
 
 header a {
