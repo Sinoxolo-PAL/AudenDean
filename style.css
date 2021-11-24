@@ -53,8 +53,8 @@ header a {
 }
 
 h1 {
-  text-align: center;
-  text-justify: center;
+  text-align: left;
+  text-justify: left;
 }
 
 #About_Me {
