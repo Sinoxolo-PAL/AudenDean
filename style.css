@@ -43,7 +43,7 @@ section {
 
 section h1 {
     font-size: 3em;
-    text-align: center;
+    text-align: left;
 }
 
 section h2 {
@@ -66,18 +66,22 @@ h1 {
 
 #About_Me {
     background-color: #D1AE9B;
+    text-align: left;
 }
 
 #Skills {
     background-color: #C09175;
+    text-align: left;
 }
 
 #Portfolio {
     background-color: #BD8270;
+    text-align: left;
 }
 
 #Contacts {
     background-color: #AA6F5D;
+    text-align: left;
 }
 
 .about-color {
