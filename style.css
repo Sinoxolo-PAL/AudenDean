@@ -59,6 +59,10 @@ h1 {
   text-justify: left;
 }
 
+p {
+  margin-left: 80px;
+}
+
 #About_Me {
     background-color: #D1AE9B;
     
