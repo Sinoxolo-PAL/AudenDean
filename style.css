@@ -60,9 +60,11 @@ h1 {
 }
 
 p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
   margin-left: 80px;
 }
-
 #About_Me {
     background-color: #D1AE9B;
     
