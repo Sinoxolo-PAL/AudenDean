@@ -1,57 +1,88 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>SinoxoloCotyi</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#About_Me">About Me</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Contacts">Contacts</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            
-            <section id="About_Me">
-                <h1 class="about-color">About Me</h1>
-                <p>Hello, I am Sinoxolo Cotyi. I am a 23 year old residing in Cape Town. I am an aspiring and driven web development recruit at Umuzi Academy. Where I spend my days creating and challenging myself and work. I stand for and would like facilitate and participate in conscious development when my arsenal has reached its peak. Hopefully working with and for the communities I grew up in.Doodling clouds in my spare time. My nose tip might be black from being buried in a book. But I don’t mind, as long as you catch me after meditating. My dream job is being a chocoholic, but my calling is in web development. That said; this is all that I have amassed, thank you for peaking with as it grows.</p>
-            </section>
-            
-            <section id="Skills">
-              <h1 class="skills-color">Skills</h1>
-                <ul>
-                  <li>Javascript</li>
-                  <li>Python</li>
-                  <li>Java</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>SQL</li>
-                </ul>
-            </section>
-            
-            <section id="Portfolio">
-              <h1 class="portfolio-color">Portfolio</h1>
-                <p>Coming Soon...</p>
-            </section>
-            
-            <section id="Contacts">
-                <h1 class="contacts-color">Contacts</h1>
-            <p>
-                <ul>
-                    <li>Email: sinoxolo.cotyi@umuzi.org</li>
-                    <li>Linked: Sinoxolo Cotyi</li>
-                    <li>Github: githum.com/Sinoxolo-PAL</li>
-                </ul>
-            </p>
-            </section>
-        </main>
-         <footer>
-             <p>&copy Copyright </p>
-        </footer>
-    </body>
-</html>
+body {
+    display: grid;
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #DDC0B4;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    display: grid;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 20px
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+section h1 {
+    font-size: 3em;
+    text-align: left;
+    margin-bottom: -100px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+  text-align: left;
+  text-justify: left;
+  margin-left: 10px;
+}
+
+p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #a36a58;
+}
+
+#About_Me {
+    background-color: #D1AE9B;
+
+}
+
+#Skills {
+    background-color: #C09175;
+}
+
+#Portfolio {
+    background-color: #BD8270;
+}
+
+#Contacts {
+    background-color: #AA6F5D;
+}
