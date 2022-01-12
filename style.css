@@ -1,91 +1,96 @@
 body {
-    display: grid;
-    margin: 0;
-    margin-top: 50px;
-    font-family: sans-serif;
+  background-image: url("SinoxoloCotyi.png");
+  display: flex;
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif;
 }
 
 header {
-    display: grid;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    line-height: 50px;
-    background-color: #DDC0B4;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #DDC0B4;
 }
 
 header * {
-    display: inline;
-    height: 50px;
+  display: inline;
+  height: 50px;
 }
 
 header ul {
-    padding: 0;
+  padding: 0;
 }
 
 header li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 section {
-    height: 80vh;
-    display: grid;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+  height: 80vh;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
 section h1 {
-    font-size: 3em;
-    text-align: left;
-    margin-bottom: -40px;
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: -100px;
 }
 
 header a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
-  text-align: left;
-  text-justify: left;
-  margin-left: 10px;
-}
-p {
-  font-size: 3vw;
-  margin-right: 10px;
-  margin-left: 10px;
+text-align: left;
+text-justify: left;
+margin-left: 10px;
 }
 
-footer {
-  background-color: #a36a58;
+p {
+font-size: 2vw;
+margin-right: 10px;
+margin-left: 10px;
 }
 
 li {
-  font-size: 3vw;
+font-size: 3vw;
+}
+
+footer {
+background-color: #a36a58;
 }
 
 #About_Me {
-    background-color: #D1AE9B;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
 #Skills {
-    background-color: #C09175;
+  background-color: #C09175;
 }
 
 #Portfolio {
-    background-color: #BD8270;
+  background-color: #BD8270;
 }
 
 #Contacts {
-    background-color: #AA6F5D;
+  background-color: #AA6F5D;
 }
