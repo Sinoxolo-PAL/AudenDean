@@ -35,7 +35,7 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #DDC0B4;
+    background-color: #e1bdc4;
 }
 
 header * {
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .intro {
-  background-color: #F7D2BC
+  background-color: #DCB0B4;
 }
 
 section {
@@ -123,7 +123,7 @@ section {
 }
 
 #About_Me {
-  background-color: #BD8270;
+  background-color: #d8a7a7;
 }
 
 #About_Me .container {
@@ -160,7 +160,7 @@ section {
 }
 
 #Skills {
-  background-color: #AA6F5D;
+  background-color: #C59697;
 }
 
 #Skills .container {
@@ -188,7 +188,7 @@ section {
 }
 
 #Portfolio {
-  background-color: #784A10;
+  background-color: #B5918C;
   color: #FFF;
 }
 
@@ -231,6 +231,8 @@ footer img {
 footer .container {
   flex-direction: column;
 }
+
+
 
 hr {
   width: 100%;
