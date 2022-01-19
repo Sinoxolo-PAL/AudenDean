@@ -159,6 +159,7 @@ section {
   padding: 40px;
   border-radius: 20px;
   margin-bottom: 40px;
+  opacity: 0.5
 }
 
 .about-box p {
@@ -188,7 +189,8 @@ section {
 }
 
 .skills-2 li {
-  background-color: #DDD;
+  background-color: #DCB0B4;
+  border: 3px solid #7D5F5F;
   border-radius: 8px;
   margin-bottom: 10px;
   padding: 15px;
