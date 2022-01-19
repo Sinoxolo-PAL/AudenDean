@@ -18,6 +18,14 @@ img {
   width: 100%;
 }
 
+p {
+  font-size: 1.4rem;
+  margin-top: 5px;
+  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
 .container {
   display: flex;
   width: 90%;
@@ -61,6 +69,10 @@ header li {
   content: ">";
   padding: 2px;
   font-size: 20px;
+}
+
+.logo a {
+  color: #000;
 }
 
 span {
@@ -151,11 +163,6 @@ section {
 
 .about-box p {
   color: #FFF;
-  font-size: 1.4rem;
-  margin-top: 5px;
-  line-height: 2.5rem;
-  font-weight: 300;
-  letter-spacing: 0.05rem;
   text-align: center;
 }
 
@@ -217,6 +224,10 @@ section {
   text-align: center;
 }
 
+#Contacts {
+  background-color: #9E7C73
+}
+
 footer ul {
   display: flex;
   justify-content: center;
@@ -232,9 +243,111 @@ footer .container {
   flex-direction: column;
 }
 
-
-
 hr {
   width: 100%;
-  height: 2px;
+  border: 1px solid black;
+}
+
+#Footer {
+  background-color: #A07368;
+}
+
+@media (max-width:450px) {
+  
+  .logo {
+    font-size: 25px;
+  }
+  
+  .logo::before {
+    fornt-size: 80px;
+    font-weight: bold;
+  }
+  
+  .logo::after{
+    fornt-size: 80px;
+    font-weight: bold;
+  }
+  
+  header {
+    display: grid;
+    height: 100px;
+    justify-content: unset;
+    width: 100%;
+    
+  }
+  
+  header li {
+    display: inline-block;
+    margin-left: 0px;
+  }
+  
+  header li a {
+    font-size: 20px;
+  }
+  
+  header .container {
+    display: grid;
+  }
+  
+  .intro .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    text-align: left;
+  }
+  
+  
+  .container {
+    text-align: center;
+  }
+  
+  .intro .img-box{
+    padding-top: 100px;
+  }
+  
+  .intro-content {
+    display: block;
+    width: inherit;
+    align-self: start;
+  }
+  
+  .title {
+    font-size: 8rem;
+    top: 50px;
+  }
+  
+  .subtitle {
+    margin-bottom: 100px;
+  }
+  
+  .skills-1 {
+    display: none;
+  }
+  
+  .skills-2 {
+    width: 350px;
+  }
+  
+  .skills-2 ul {
+    padding: 0px;
+  }
+  
+  .skills-2 ul li {
+    border-radius: 35px;
+    margin-bottom: 30px;
+    padding: 15px 35px;
+  }
+  
+  .contacts div {
+    width: inherit;
+  }
+  
+  .contact-box {
+    display: block;
+  }
+  
+  .cards {
+    margin: 0px auto 100px auto;
+  }
+  
 }
